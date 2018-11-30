@@ -1,0 +1,116 @@
+
+body {
+   
+   /*  background-color: blue; */
+    
+    font-family:Courier New, Courier, monospace; 
+  
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  /*#header {
+    background-color: steelblue;
+  }*/
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(61, 62, 133, 0.75);
+  }
+
+  .container {
+    width: 70%;
+    margin: 0px auto;
+  }
+
+ #about {
+  min-height:600px;
+  padding: 150px;
+  background-image:   url(../assets/background.jpg);
+  background-size: cover;
+ } 
+ 
+ #contact {
+  min-height: 200x;
+  padding: 50px;
+  text-align: center;
+}
+
+ img#headshot {
+  display: block; 
+  margin: 0 auto;
+ 
+
+}
+
+
+
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  
+  }
+  
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  /*.center  {
+    text-align:center; 
+  }
+  
+  #about  {
+      color:darkgreen
+  }
+  
+  #contact  {
+      color:darkgreen
+  } */
+  
+   .red {
+    color: red;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .blue {
+    color: blue;
+  }
+
+  footer {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 5%;
+  }
+
+ 
+ /* a:focus {
+    background-color: crimson
+  }
+  
+  a:visited {
+      color: yellow      
+  }
+  
+  a:hover {
+  
+    background-color: cornflowerblue
+  
+  } */
+
+  
+  
+  /* psuedo classes also work with classes 
+    a.center:focus {
+    text-align:center; 
+  }
+  
+  
+  
+   */
